@@ -4,7 +4,7 @@ Use FB ad dataset to explore omitted variable bias and interaction effects. The 
 
 **Skill:**
 
-1. DiD, integretation of coefficient, interaction effect.
+1. DiD, interpretation of coefficient, interaction effect.
 2. R, with basic functions: read.csv, lm. summary, log, subset, as.Date, sort, etc.
 3. Correct and clear code: easy-to-read, clear comments, good variable names, proper indentation, shor lines.
 
