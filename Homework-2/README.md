@@ -48,4 +48,5 @@ Use FB ad dataset to explore omitted variable bias and interaction effects. The 
    The positive effect of eCommerce is underestimated without the interaction effect. Because ageMean is associated with 0.36125 less of its impact, causing less negative effect within the ecommerce category.
 
 **Insights/Comments:**
+
    Cosmetics is category with the largest number of clicks per dollar. Attention! Interaction effects and Marginal effects.
