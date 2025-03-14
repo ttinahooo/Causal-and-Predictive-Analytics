@@ -1,9 +1,0 @@
-Task:
-eBay conducted an experimental study to determine the return of its advertising on search engines including Google, Bing, and Yahoo.
-
-What is it about:
-1. R, Rmarkdown, with basic functions: read.csv, lm. summary, log, subset, as.Date, sort, etc.
-2. correct and clear code: easy-to-read, clear comments, good variable names, proper indentation, shor lines.
-
-Study Design:
-Users are categorized by their market area
