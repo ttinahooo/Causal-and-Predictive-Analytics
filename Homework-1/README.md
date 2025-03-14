@@ -31,7 +31,7 @@ The variable isTreatmentPeriod indicates whether the treatment period had starte
 3. Determine the effectiveness of eBay ads using treatment period data. Compare treatment group and control group in the treatment period. (regression: log(revenue)~isTreatmentGroup, subset=treatment_period) p-value: 0.7406>0.05
 
 
-**Insights:**
+**Insights/Comments:**
   1. From (1), P-value = 0.04737<0.05, so the advertising has effect on revenue, and the coefficient estimates imply that ads increases revenue by about 4%. Since p=0.0474, so, ads might plausibly increase revenue by anywhere from .1% to 8%.
   
   <img width="695" alt="Screenshot 2025-03-13 at 7 35 54 PM" src="https://github.com/user-attachments/assets/6c0f9de7-a114-44a7-b9c9-47ead911871b" />
@@ -40,4 +40,4 @@ The variable isTreatmentPeriod indicates whether the treatment period had starte
      
    <img width="695" alt="Screenshot 2025-03-13 at 8 26 00 PM" src="https://github.com/user-attachments/assets/8fa6b00e-93bc-40e6-8999-e51deba7a38f" />
 
-  3. 
+  3. In A/B testing, even if it is a bad model, it doesn't matter. The R-Squared in the last regression (the effectiveness test one) is 8.422e-06, but it doesn’t matter because this is a randomized experiment. A low R-Squared means control variables are not explaining a large part of the variance, but we only need the difference between treatment and control group.It's indicated by standard error. Even important omitted variables do not bias the results of A/B tests.
