@@ -39,11 +39,13 @@ Use FB ad dataset to explore omitted variable bias and interaction effects. The 
    So, the category is the base line category, which is Cosmetics.
 
    ageMean 2.41940
+   
    factor(category)eCom -42.64 (no interaction term)
+   
    factor(category)eCom -28.30 (with interaction term)
+   
    The coefficient on eCom increased from -42.64 to -28.30. This is because this coefficient now represents the effect for those with an age of 0. (but where is the gap come from??)
-   the positive effect of eCommerce is underestimated without the interaction effect. Because ageMean is associated
-with 0.36125 less of its impact, causing less negative effect within the ecommerce category.
+   The positive effect of eCommerce is underestimated without the interaction effect. Because ageMean is associated with 0.36125 less of its impact, causing less negative effect within the ecommerce category.
 
 **Insights/Comments:**
    Cosmetics is category with the largest number of clicks per dollar. Attention! Interaction effects and Marginal effects.
